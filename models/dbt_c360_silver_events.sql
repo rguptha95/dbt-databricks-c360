@@ -10,4 +10,5 @@ select
   platform,
   action,
   url
-from dbdemos.dbt_c360_bronze_events
+-- from dbdemos.dbt_c360_bronze_events
+from rc_catalog.dbdemos.dbt_c360_bronze_events
