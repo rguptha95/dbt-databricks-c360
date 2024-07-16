@@ -16,4 +16,5 @@ select
   cast(gender as int),
   cast(age_group as int), 
   cast(churn as int) as churn
-from dbdemos.dbt_c360_bronze_users
+-- from dbdemos.dbt_c360_bronze_users
+from rc_catalog.dbdemos.dbt_c360_bronze_users
